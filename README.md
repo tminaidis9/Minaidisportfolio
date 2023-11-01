@@ -1,56 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
 
-# *Project title*
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Theodoros Minaidis Portfolio</title>
+</head>
 
-*Short description of your project, in one or two sentences.* 
 
-## Setup 
+<body>
 
-### Dependencies
+<div class="container">
 
-*Provide links and descriptions for the third-party libraries you're having your users install.*
+    <div class="glass-container">
 
-### Installation
+        <nav class="navbar">
 
-* Mac OS X
-* Ubuntu
-* Windows (if applicable)
+            <div class="logo">
+                <a href="#">Theodoros Minaidis</a>
+            </div>
+            <ul class="nav-links">
+                <li class="nav-link"><a class="mypage" href="portfolio.html">Home</a></li>
+                <li class="nav-link"><a href="about.html">About</a></li>
+                <li class="nav-link"><a href="contact.html">Contact</a></li>
+            </ul>
 
-### Getting started
+        </nav>
 
-*What does your user need to know to get everything ready after installation?*
-*Think about databases, config files, and settings.*
+        <div class="content">
 
-## Usage
+            <div class="main">
 
-*Give your users a sense of the workflow for using your project/tool.*
-*For a website this might include code for running locally.*
-*For an API this might include method and parameter specs.*
+                <h2>Hey! 👋,<br>It's Thodoris</h2>
+                <p>
+                    My name is Thodoris, i am an
+                    undergraduate student in Department of
+                    Informatics and Telecommunications. I
+                    love coding and I’m eager to learn
+                    more about programming.
+                </p>
+                <button>Get Started</button>
 
-## Demo
+            </div>
 
-*Grab a simple block of code that makes use of your project/tool and paste it here.*
+            <div class="image-wrapper">
 
-## Team
+                <img src="image.png">
+                <div class="attrebute">
+                    <a
+                    href="https://www.freepik.com/free-psd/marketing-concept-with-woman-rocketship_33417710.htm#page=2&query=3d%20illustration&position=32&from_view=search&track=ais">Image
+                    by Freepik
+                    </a>
+                </div>
 
-* *Name, Organization - role or tasks worked on*
+            </div>
+        </div>
 
-*Add a "contributors" section if you've incorporated pull requests.*
+    </div>
+</div>
 
-## Errors and bugs
+<script src="app.js"></script>
 
-If something is not behaving intuitively, it is a bug and should be reported.
-Report it here by creating an issue: https://github.com/datamade/your-repo-here/issues
-
-Help us fix the problem as quickly as possible by following [Mozilla's guidelines for reporting bugs.](https://developer.mozilla.org/en-US/docs/Mozilla/QA/Bug_writing_guidelines#General_Outline_of_a_Bug_Report)
-
-## Patches and pull requests
-
-Your patches are welcome. Here's our suggested workflow:
- 
-* Fork the project.
-* Make your feature addition or bug fix.
-* Send us a pull request with a description of your work. Bonus points for topic branches!
-
-## Copyright and attribution
-
-Copyright (c) 2016 DataMade. Released under the [MIT License](https://github.com/datamade/your-repo-here/blob/master/LICENSE).
+    
+</body>
+</html>
