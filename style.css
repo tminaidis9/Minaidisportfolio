@@ -11,7 +11,7 @@ a{
 
 body{
     color: #fff;
-    background-color: #e9ff99;
+    background-color: #2668db;
     background: linear-gradient(300deg,#69133e,#130649,#000f0c);
     /* background-image:
     radial-gradient(at 9% 89%, hsla(215, 90%, 73%, 1) 0px, transparent 50%),
@@ -67,12 +67,12 @@ li.nav-link{
 }
 
 li.nav-link:hover{
-    border-bottom: 1px solid whitesmoke;
+    border-bottom: 1px solid #2668db;
 
 }
 
 .mypage{
-    color: hsla(50, 96%, 70%, 1);
+    color: rgb(127, 192, 245);
 
 }
 
