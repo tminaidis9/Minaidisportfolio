@@ -12,14 +12,15 @@ a{
 body{
     color: #fff;
     background-color: #e9ff99;
-    background-image:
+    background: linear-gradient(300deg,#69133e,#130649,#000f0c);
+    /* background-image:
     radial-gradient(at 9% 89%, hsla(215, 90%, 73%, 1) 0px, transparent 50%),
     radial-gradient(at 72% 6%, rgb(9, 79, 117) 0px, transparent 50%),
     radial-gradient(at 24% 19%, hsla(14, 90%, 74%, 1) 0px, transparent 50%),
     radial-gradient(at 65% 6%, hsla(6, 79%, 76%, 1) 0px, transparent 50%),
     radial-gradient(at 20% 98%, rgb(123, 97, 229) 0px, transparent 50%),
     radial-gradient(at 44% 9%, rgb(71, 33, 176) 0px, transparent 50%),
-    radial-gradient(at 10% 9%, rgb(34, 121, 188) 0px, transparent 50%);
+    radial-gradient(at 10% 9%, rgb(34, 121, 188) 0px, transparent 50%); */
     min-height: 100vh;
 }
 
