@@ -49,6 +49,10 @@ body{
     margin-top: -10px;
 }
 
+.date{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 ul.nav-links{
     min-width: 12rem;
     text-align: center;
